@@ -1,25 +1,21 @@
+import java.util.Scanner;
+
 // <Amari Lombel> 5b 11/3/21 9:13 am
 
-public class mainJava{
-    public static void name() {
-
-     String name;
-     int gas;
-     boolean engineOn;
-
-public class Name{
-    String carName;
-    String carBrand;
+public class Student() {
+    //these are intance variable
+    private int studentID;
+    private int gradeLevel;
+    private double gradepointAverage;
+    private String studentName;  
 }
-public class Gas{
-    int gallons;
-    boolean fullTank;
-}
-public class EngineOn {
-    boolean carOn;
-    boolean carOff;
-}
-
+    //create intructor
+    public Student() {
+        this.studentID = 0;
+        this.gradeLevel = 0;
+        this.gradepointAverage = 0;
+        this.studentName = "";        
+    }
 //creating methods 
 public static void calcGPA() {
     int grade0;
@@ -66,6 +62,7 @@ public static void main(String[]args) {
     System.out.println("Hello there");
     threeLine();
     System.out.println("General Kenobi");
+    calcGPA();
     
 }
 
