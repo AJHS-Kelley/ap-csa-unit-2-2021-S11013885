@@ -20,6 +20,29 @@ public class EngineOn {
     boolean carOff;
 }
 
+//creating methods 
+public static void calcGPA() {
+    int grade0;
+    int grade1;
+    int grade2;
+    int grade3;
+    double newGPA;
+
+    import java.util.Scanner
+    Scanner myScanner = new Scanner(System.in);
+    
+    
+    system.out.println("what is the first grade");
+    grade0 = myScanner.nextint();
+    system.out.println("what is the first grade");
+    grade1 = myScanner.nextint();
+    system.out.println("what is the first grade");
+    grade2 = myScanner.nextint();
+    system.out.println("what is the first grade");
+    grade3 = myScanner.nextint();
+
+}
+
 
     }
 }
