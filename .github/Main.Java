@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Student() {
     //these are intance variable
     private int studentID;
-    private int gradeLevel;
+    private int studentID;
     private double gradepointAverage;
     private String studentName;  
 }
@@ -16,6 +16,13 @@ public class Student() {
         this.gradepointAverage = 0;
         this.studentName = "";        
     }
+// value constructor
+ public Student(int studentID, int gradeLevel, double gradepointAverage, String studentName,){
+    this.studentID = studentID;
+    this.gradeLevel = 9;
+    this.gradepointAverage = 4.0;
+    this.studentName = studentName; 
+ }
 //creating methods 
 public static void calcGPA() {
     int grade0;
@@ -37,7 +44,7 @@ public static void calcGPA() {
     system.out.println("what is the fourth grade");
     grade3 = myScanner.nextint();
 
-    newGPA =( grade0 + grade1 + grade2 + grade3) / 4;
+    newGPA =(grade0 + grade1 + grade2 + grade3) / 4;
     system.out.println("this is you GPA")
     system.out.println(newGPA);
 }
