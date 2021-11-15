@@ -44,6 +44,7 @@ public static void calcGPA() {
     system.out.println("what is the fourth grade");
     grade3 = myScanner.nextint();
 
+    // GPA calculator
     newGPA =(grade0 + grade1 + grade2 + grade3) / 4;
     system.out.println("this is you GPA")
     system.out.println(newGPA);
@@ -73,5 +74,68 @@ public static void main(String[]args) {
     
 }
 
+     
+    // Parameter and Arguments
+    public static void assignLunch(int gradeLevel) {
+        String lunchPeriod;
+            
+            if (gradeLevel == 9){
+                lunchPeriod == "thrid lunch";
+                system.out.print("this student has ");
+                system.out.println (lunchPeriod);
+            }else if (gradeLevel == 10){
+                 lunchPeriod == "second lunch";
+                system.out.print("this student has ");
+                system.out.println (lunchPeriod);
+            }else if (gradeLevel == 11){
+                lunchPeriod == "first lunch";
+                system.out.print("this student has ");
+                system.out.println (lunchPeriod);
+            }else {
+                lunchPeriod == "outsude luch";
+                system.out.print("this student has ");
+                system.out.println (lunchPeriod);
+            }
+        
     }
+
+    public static void  assignLunchMultiple(int gradelevel, double gradepointAverage )
+        String lunchPeriod;
+    // And, Or,Not - Boolen Operaters 
+    // && -- And
+    // || -- Or 
+    // ! -- not
+
+    if (gradelevel == 9 || gradepointAverage <= 1.5) {
+        lunchPeriod = ("Frist Lunch");
+        system.out.println (" This student has ");
+        system.out.println(lunchPeriod)
+    }else if (gradeLevel == 10 && gradepointAverage >2.0){
+        lunchPeriod == "second lunch";
+       system.out.print("this student has ");
+       system.out.println (lunchPeriod);
+   }else if (gradeLevel == 11 && ( gradepointAverage != 0.0)){
+       lunchPeriod == "first lunch";
+       system.out.print("this student has ");
+       system.out.println (lunchPeriod);
+   }else {
+       lunchPeriod == "outsude luch";
+       system.out.print("this student has ");
+       system.out.println (lunchPeriod);
+
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+    }
+
 }
