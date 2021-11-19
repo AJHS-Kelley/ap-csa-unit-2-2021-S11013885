@@ -125,7 +125,15 @@ public static void main(String[]args) {
 
 
     public static void mathPractice() {
-
+        int x;
+        int y;
+        Scanner myScanner = new Scanner(system.in);
+        x = myScanner.nextInt();
+        x = myScanner.nextInt();
+        System.out.println(Math.min(x,y));
+        int lowest;
+        lowest=math.min(x,y);
+        System.out.println(lowest);
            
        }
 
