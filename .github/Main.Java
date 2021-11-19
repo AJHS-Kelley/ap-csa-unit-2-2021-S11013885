@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// <Amari Lombel> 5b 11/3/21 9:13 am
+// <Amari Lombel> 5b 11/19/21 8:22 am
 
 public class Student() {
     //these are intance variable
@@ -123,6 +123,11 @@ public static void main(String[]args) {
        system.out.print("this student has ");
        system.out.println (lunchPeriod);
 
+
+    public static void mathPractice() {
+
+           
+       }
 
 
 
