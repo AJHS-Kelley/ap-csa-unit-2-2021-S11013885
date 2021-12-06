@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// <Amari Lombel> 5b 11/19/21 8:57 am v0.9
+// <Amari Lombel> 5b 11/19/21 8:57 am v1.6
 
 public class Student {
     //these are intance variable
@@ -142,7 +142,23 @@ public static void threeLine() {
         System.out.print(precentage);
         System.out.println("% chance of rain");
 
-      
+      public static double getGPA() {
+          int grade0 ,grade1 , grade2;
+
+          grade0 = 87;
+
+          grade1 = 64;
+
+          grade2 = 13;
+
+          double fakeGPA;
+          fakeGPA = (grade0 + grade1 + grade2);
+
+        
+
+    
+          
+      }
     
         }
     
