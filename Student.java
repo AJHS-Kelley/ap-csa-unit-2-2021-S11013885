@@ -89,18 +89,18 @@ public static void threeLine() {
         
     }
 
-    public static void  assignLunchMultiple(int gradelevel, double gradepointAverage){
+    public static void  assignLunchMultiple(int gradeLevel, double gradepointAverage){
         String lunchPeriod;
     // And, Or,Not - Boolen Operaters 
     // && -- And
     // || -- Or 
     // ! -- not
 
-    if (gradelevel == 9 || gradepointAverage <= 1.5) {
+    if (gradeLevel == 9 || gradepointAverage <= 1.5) {
         lunchPeriod = ("Frist Lunch");
         System.out.println (" This student has ");
         System.out.println(lunchPeriod);
-    else if (gradeLevel == 10 && gradepointAverage >2.0){
+    }else if (gradeLevel == 10 && (gradepointAverage >2.0)){
         lunchPeriod = "second lunch";
        System.out.print("this student has ");
        System.out.println (lunchPeriod);
@@ -112,7 +112,7 @@ public static void threeLine() {
        lunchPeriod = "outsude luch";
        System.out.print("this student has ");
        System.out.println (lunchPeriod);
-
+   
    }
 }
     // math practice
@@ -142,39 +142,38 @@ public static void threeLine() {
         System.out.print(precentage);
         System.out.println("% chance of rain");
 
-      public static double getGPA() {
-          int grade0 ,grade1 , grade2;
-
-          grade0 = 87;
-
-          grade1 = 64;
-
-          grade2 = 13;
-
-          double fakeGPA;
-          fakeGPA = (grade0 + grade1 + grade2);
-
-        
-
     
           
       }
     
-        }
+    
+
+        public static double getGPA () {
+            int grade0 ,grade1 , grade2;
+  
+            grade0 = 87;
+  
+            grade1 = 64;
+  
+            grade2 = 13;
+  
+            double fakeGPA;
+            fakeGPA = (grade0 + grade1 + grade2);
+  
+          
+          double realGPA;
+          realGPA = 1.0;
+          System.out.println(realGPA);
+          realGPA = getGPA;
+
     
 
 
 
 
 
-
     
-
-
-
-
-
-
     }
+}
 
 
